@@ -1,0 +1,37 @@
+* {
+  padding: 0;    
+  margin: 0; 
+}
+
+input:invalid+span:after {
+  content: 'Исправьте данные';
+  padding-left: 5px;
+}
+
+input:valid+span:after {
+  content: '';
+  padding-left: 5px;
+}
+
+#height {
+  width: 20vw;
+}
+
+#weight {
+  width: 20vw;
+}
+
+
+/* .App-header {
+  height: 40vmin;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+ */
+
